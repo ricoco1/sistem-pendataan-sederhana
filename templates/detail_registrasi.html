@@ -1,0 +1,19 @@
+{% include 'header.html' %}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="p-4 border rounded">
+                <h2 class="text-center">Haloo, {{ username }} ini adalah detail data anda</h2>
+                <p><strong>Nama:</strong> {{ username }}</p>
+                <p><strong>Email:</strong> {{ email }}</p>
+                <p><strong>Password:</strong> {{ password }}</p>
+                <div class="text-end">
+                    <a href="/" class="btn btn-primary">Kembali</a>
+                    <a href="#" class="btn btn-primary">Oke, Benar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'footer.html' %}
